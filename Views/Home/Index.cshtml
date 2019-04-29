@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link href="~/Assets/fontawesome/css/all.css" rel="stylesheet" />
+<link href="~/Assets/less/StyleSheet1.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Assets/myScripts/custom.js"></script>
+
+<div class="slider">
+    <div class="slider-item">
+        <ul class="slider-item-container">
+            <li class="sayfaSlider" id="birinci">
+                <img src="~/Assets/myImages/yemek.png" />
+                <span class="price">Ofise Sıcak</span>
+                <span class="title">YEMEK</span>
+                <span class="description">Aboneliği Menümüz Yenilendi</span>
+                <span class="rightDesc">A prepared meal delivery service committed to making healthy choices easier! Here at Nourish, we're all about delicious, healthy food. </span>
+                <button class="incele">MENÜYÜ İNCELE</button>
+                <button class="aboneOl">ABONE OL</button>
+            </li>
+            <li id="ikinci" class="sayfaSlider">
+                <img src="~/Assets/myImages/yemek2.jpg" />
+                <span class="price">Ofise Sıcak</span>
+                <span class="title">YEMEK</span>
+                <span class="description">Aboneliği Menümüz Yenilendi</span>
+                <span class="rightDesc">A prepared meal delivery service committed to making healthy choices easier! Here at Nourish, we're all about delicious, healthy food. </span>
+                <button class="incele">MENÜYÜ İNCELE</button>
+                <button class="aboneOl">ABONE OL</button>
+            </li>
+            <li id="ucuncu" class="sayfaSlider">
+                <img src="~/Assets/myImages/yemek3.jpg" />
+                <span class="price">Ofise Sıcak</span>
+                <span class="title">YEMEK</span>
+                <span class="description">Aboneliği Menümüz Yenilendi</span>
+                <span class="rightDesc">A prepared meal delivery service committed to making healthy choices easier! Here at Nourish, we're all about delicious, healthy food. </span>
+                <button class="incele">MENÜYÜ İNCELE</button>
+                <button class="aboneOl">ABONE OL</button>
+            </li>
+            <li id="dorduncu" class="sayfaSlider">
+                <img src="~/Assets/myImages/yemek4.jpg" />
+                <span class="price">Ofise Sıcak</span>
+                <span class="title">YEMEK</span>
+                <span class="description">Aboneliği Menümüz Yenilendi</span>
+                <span class="rightDesc">A prepared meal delivery service committed to making healthy choices easier! Here at Nourish, we're all about delicious, healthy food. </span>
+                <button class="incele">MENÜYÜ İNCELE</button>
+                <button class="aboneOl">ABONE OL</button>
+            </li>
+        </ul>
+        <ul class="slider-click-container">
+            <li class="active clickSlider" id="click1">
+                <a href="#" onclick="changeSlider('birinci'),changeSliderButton('click1')">
+                    <i class="far fa-circle"></i>
+                </a>
+            </li>
+            <li id="click2" class="clickSlider">
+                <a href="#" onclick="changeSlider('ikinci'),changeSliderButton('click2')">
+                    <i class="far fa-circle"></i>
+                </a>
+            </li>
+            <li id="click3" class="clickSlider">
+                <a href="#" onclick="changeSlider('ucuncu'),changeSliderButton('click3')">
+                    <i class="far fa-circle"></i>
+                </a>
+            </li>
+            <li id="click4" class="clickSlider">
+                <a href="#" onclick="changeSlider('dorduncu'),changeSliderButton('click4')">
+                    <i class="far fa-circle"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

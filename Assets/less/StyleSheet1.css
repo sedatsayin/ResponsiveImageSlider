@@ -1,0 +1,465 @@
+﻿html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+tt,
+var,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+input,
+textarea,
+select,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  overflow-x: hidden !important;
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+:focus {
+  outline: 0;
+}
+.slider {
+  width: 100vw;
+  height: 551px;
+  display: inline-block;
+}
+.slider .slider-item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #efede9;
+  height: 551px;
+  overflow: hidden;
+}
+.slider .slider-item ul.slider-item-container {
+  position: relative;
+}
+.slider .slider-item ul.slider-item-container li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slider .slider-item ul.slider-item-container li img {
+  width: 100vw;
+  height: 551px;
+  position: absolute;
+  top: 0;
+}
+.slider .slider-item ul.slider-item-container li span {
+  position: absolute;
+}
+.slider .slider-item ul.slider-item-container li .price {
+  width: 25vw;
+  text-align: left;
+  top: 250px;
+  left: 351px;
+  color: #fff;
+  font-size: 30px;
+}
+.slider .slider-item ul.slider-item-container li .title {
+  top: 280px;
+  color: #fff;
+  font-size: 104.47px;
+  font-family: 'Myriad Pro';
+  font-weight: 300;
+  left: 351px;
+  right: 150px;
+}
+.slider .slider-item ul.slider-item-container li .description {
+  width: 25vw;
+  text-align: left;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  top: 385px;
+  left: 351px;
+}
+.slider .slider-item ul.slider-item-container li .rightDesc {
+  width: 30vw;
+  top: 300px;
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Myriad Pro';
+  left: 751px;
+  right: 150px;
+}
+.slider .slider-item ul.slider-item-container li .incele {
+  border-radius: 10px;
+  height: 45px;
+  width: 150px;
+  background: #fff;
+  color: #8d8d99;
+  position: absolute;
+  top: 440px;
+  font-size: 12px;
+  font-family: Poppins;
+  left: 751px;
+  right: 150px;
+}
+.slider .slider-item ul.slider-item-container li .incele:hover {
+  opacity: 0.8;
+}
+.slider .slider-item ul.slider-item-container li .aboneOl {
+  border-radius: 10px;
+  height: 45px;
+  width: 150px;
+  background: #e30613;
+  color: #fff;
+  position: absolute;
+  top: 440px;
+  font-size: 12px;
+  font-family: Poppins;
+  left: 941px;
+  right: 150px;
+}
+.slider .slider-item ul.slider-item-container li .aboneOl:hover {
+  opacity: 0.8;
+}
+.slider .slider-item ul.slider-click-container {
+  position: relative;
+}
+.slider .slider-item ul.slider-click-container li#click1 {
+  position: absolute;
+  top: 500px;
+  left: 791px;
+}
+.slider .slider-item ul.slider-click-container li#click1 a {
+  color: #fff;
+}
+.slider .slider-item ul.slider-click-container li#click1 a:hover {
+  opacity: 0.8;
+}
+.slider .slider-item ul.slider-click-container li#click1.active a {
+  color: #2ab140;
+}
+.slider .slider-item ul.slider-click-container li#click2 {
+  position: absolute;
+  top: 500px;
+  left: 821px;
+}
+.slider .slider-item ul.slider-click-container li#click2 a {
+  color: #fff;
+}
+.slider .slider-item ul.slider-click-container li#click2 a:hover {
+  opacity: 0.8;
+}
+.slider .slider-item ul.slider-click-container li#click2.active a {
+  color: #2ab140;
+}
+.slider .slider-item ul.slider-click-container li#click3 {
+  position: absolute;
+  top: 500px;
+  left: 851px;
+}
+.slider .slider-item ul.slider-click-container li#click3 a {
+  color: #fff;
+}
+.slider .slider-item ul.slider-click-container li#click3 a:hover {
+  opacity: 0.8;
+}
+.slider .slider-item ul.slider-click-container li#click3.active a {
+  color: #2ab140;
+}
+.slider .slider-item ul.slider-click-container li#click4 {
+  position: absolute;
+  top: 500px;
+  left: 881px;
+}
+.slider .slider-item ul.slider-click-container li#click4 a {
+  color: #fff;
+}
+.slider .slider-item ul.slider-click-container li#click4 a:hover {
+  opacity: 0.8;
+}
+.slider .slider-item ul.slider-click-container li#click4.active a {
+  color: #2ab140;
+}
+.slider .slider-button ul {
+  border-top: 10px solid #000;
+  position: relative;
+  top: 6px;
+  padding: 0 0 0 6px;
+}
+.slider .slider-button ul li {
+  float: left;
+  border-top: 6px solid transparent;
+  margin-top: -8px;
+}
+.slider .slider-button ul li a {
+  display: block;
+  padding: 15px 44px 10px 44px;
+  text-align: center;
+  font-size: 18px;
+  color: #acacac;
+}
+.slider .slider-button ul li a span {
+  display: block;
+  font-size: 12px;
+  color: #adadad;
+}
+.slider .slider-button ul li a:hover {
+  color: #fff;
+}
+.slider .slider-button ul li.active a {
+  color: #fff;
+}
+@media screen and (max-width: 600px) {
+  .slider .slider-item {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #efede9;
+    height: 200px;
+    overflow: hidden;
+  }
+  .slider .slider-item ul.slider-item-container {
+    position: relative;
+  }
+  .slider .slider-item ul.slider-item-container li {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .slider .slider-item ul.slider-item-container li img {
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+    top: 0;
+  }
+  .slider .slider-item ul.slider-item-container span {
+    position: absolute;
+  }
+  .slider .slider-item ul.slider-item-container .price {
+    width: 25vw;
+    text-align: left;
+    top: 87px !important;
+    left: 40px !important;
+    color: #fff;
+    font-size: 10px !important;
+  }
+  .slider .slider-item ul.slider-item-container .title {
+    top: 95px !important;
+    color: #fff;
+    font-size: 30px !important;
+    font-family: 'Myriad Pro';
+    font-weight: 300;
+    left: 40px !important;
+    right: 150px;
+  }
+  .slider .slider-item ul.slider-item-container .description {
+    width: 75vw !important;
+    text-align: left;
+    color: #fff;
+    font-size: 10px !important;
+    font-weight: 300;
+    top: 122px !important;
+    left: 40px !important;
+  }
+  .slider .slider-item ul.slider-item-container .rightDesc {
+    width: 45vw !important;
+    top: 95px !important;
+    color: #fff;
+    font-size: 6px !important;
+    font-family: 'Myriad Pro';
+    left: 150px !important;
+    right: 150px;
+  }
+  .slider .slider-item ul.slider-item-container .incele {
+    border-radius: 5px !important;
+    height: 15px !important;
+    width: 55px !important;
+    background: #fff;
+    color: #8d8d99;
+    position: absolute;
+    top: 140px !important;
+    font-size: 5px !important;
+    font-family: Poppins;
+    left: 150px !important;
+    right: 150px;
+  }
+  .slider .slider-item ul.slider-item-container .incele:hover {
+    opacity: 0.8;
+  }
+  .slider .slider-item ul.slider-item-container .aboneOl {
+    border-radius: 5px !important;
+    height: 15px !important;
+    width: 55px !important;
+    background: #e30613;
+    color: #fff;
+    position: absolute;
+    top: 140px !important;
+    font-size: 5px !important;
+    font-family: Poppins;
+    left: 215px !important;
+    right: 150px;
+  }
+  .slider .slider-item ul.slider-item-container .aboneOl:hover {
+    opacity: 0.8;
+  }
+  .slider .slider-item ul.slider-click-container {
+    position: relative;
+  }
+  .slider .slider-item ul.slider-click-container li#click1 {
+    position: absolute;
+    top: 160px;
+    left: 120px;
+  }
+  .slider .slider-item ul.slider-click-container li#click1 a {
+    color: #fff;
+  }
+  .slider .slider-item ul.slider-click-container li#click1 a:hover {
+    opacity: 0.8;
+  }
+  .slider .slider-item ul.slider-click-container li#click1.active a {
+    color: #2ab140;
+  }
+  .slider .slider-item ul.slider-click-container li#click2 {
+    position: absolute;
+    top: 160px;
+    left: 145px;
+  }
+  .slider .slider-item ul.slider-click-container li#click2 a {
+    color: #fff;
+  }
+  .slider .slider-item ul.slider-click-container li#click2 a:hover {
+    opacity: 0.8;
+  }
+  .slider .slider-item ul.slider-click-container li#click2.active a {
+    color: #2ab140;
+  }
+  .slider .slider-item ul.slider-click-container li#click3 {
+    position: absolute;
+    top: 160px;
+    left: 170px;
+  }
+  .slider .slider-item ul.slider-click-container li#click3 a {
+    color: #fff;
+  }
+  .slider .slider-item ul.slider-click-container li#click3 a:hover {
+    opacity: 0.8;
+  }
+  .slider .slider-item ul.slider-click-container li#click3.active a {
+    color: #2ab140;
+  }
+  .slider .slider-item ul.slider-click-container li#click4 {
+    position: absolute;
+    top: 160px;
+    left: 195px;
+  }
+  .slider .slider-item ul.slider-click-container li#click4 a {
+    color: #fff;
+  }
+  .slider .slider-item ul.slider-click-container li#click4 a:hover {
+    opacity: 0.8;
+  }
+  .slider .slider-item ul.slider-click-container li#click4.active a {
+    color: #2ab140;
+  }
+}
